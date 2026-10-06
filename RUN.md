@@ -1,0 +1,1 @@
+﻿Using the `slide-recap` skill: read `input/<deck>.pdf` with the pdf-reader MCP. Have @summarizer produce the recap, then have @reviewer check it against the slide text, apply the fixes, and render the concept map with the mermaid MCP. Save everything to `output/`.
