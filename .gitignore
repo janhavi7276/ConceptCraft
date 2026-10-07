@@ -1,4 +1,7 @@
 node_modules/
 .env
 input/*.pdf
+input/.uploads/
+server/last-run.log
 output/*-slides.txt
+frontend/dist/

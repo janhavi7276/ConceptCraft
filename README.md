@@ -24,6 +24,13 @@ See PLAN.md (made in OpenCode Plan mode). Key choices:
 2. Put a lecture PDF in `input/`
 3. Run `opencode` in this folder (Build mode) and paste the prompt from RUN.md
 
+## Web UI
+- `npm run dev:server` — Express API on http://localhost:3001
+- `npm run dev:client` — Vite app on http://localhost:5173 (proxies `/api`)
+- Sidebar lists recaps from `output/`; the viewer renders Markdown with live Mermaid
+  and the static concept map (SVG or PNG); uploading a PDF runs `opencode run`
+  server-side and returns the new recap in about a minute. Plan in PLAN-FRONTEND.md.
+
 ## Example run
 Input: `AAPLecture5_RAG_Fundamentals.pdf`
 Output (in `output/`): the recap `.md` and the concept map `.svg`.

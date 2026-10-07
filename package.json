@@ -1,0 +1,27 @@
+{
+  "name": "conceptcraft",
+  "version": "1.0.0",
+  "description": "Turn course slide decks into a structured summary and a concept map, in one clean pass.",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "node server/index.js",
+    "dev:client": "npm --prefix frontend run dev",
+    "build:client": "npm --prefix frontend run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janhavi7276/ConceptCraft.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/janhavi7276/ConceptCraft/issues"
+  },
+  "homepage": "https://github.com/janhavi7276/ConceptCraft#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.4.0"
+  }
+}
